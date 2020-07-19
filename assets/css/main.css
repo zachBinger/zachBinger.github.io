@@ -2685,6 +2685,14 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+	.embededPlot {
+		float: right;
+		margin: auto;
+		top: auto;
+		bottom: 0rem;
+		vertical-align: bottom;
+		padding: 0rem 2rem 0rem 2rem
+	}
 /* Actions */
 
 	ul.actions {
