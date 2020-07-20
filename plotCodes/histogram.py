@@ -4,9 +4,11 @@ import scipy.special
 from bokeh.layouts import gridplot
 from bokeh.plotting import figure, output_file, show
 
-
 def make_plot(title, hist, edges, x, pdf, cdf):
-    p = figure(title=title, tools='', background_fill_color="#fafafa")
+    p = figure(title=title, tools="pan,wheel_zoom,reset,hover,save", 
+        background_fill_color="#fafafa", tooltips=[
+        ("Probability", "@y{0.02}"),("Probability", "@top{0.00}")
+        ])
     p.quad(top=hist, bottom=0, left=edges[:-1], right=edges[1:],
            fill_color="navy", line_color="white", alpha=0.5)
     p.line(x, pdf, line_color="#ff8888", line_width=4, alpha=0.7, legend_label="PDF")
@@ -71,6 +73,6 @@ cdf = 1 - np.exp(-(x/lam)**k)
 
 p4 = make_plot("Weibull Distribution (λ=1, k=1.25)", hist, edges, x, pdf, cdf)
 
-output_file('assets/Bokeh/histogram.html', title="histogram.py example")
+output_file('histogram.html', title="histogram.py example")
 
 show(gridplot([p1,p2,p3,p4], ncols=2, plot_width=400, plot_height=400, toolbar_location=None))
