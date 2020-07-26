@@ -244,7 +244,6 @@ input, select, textarea {
 	}
 
 	code {
-		border: solid 2px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
@@ -255,7 +254,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 	}
 
 		pre code {
@@ -2594,6 +2593,7 @@ input, select, textarea {
 		position: relative;
 	}
 
+
 		.image img {
 			display: block;
 		}
@@ -2625,6 +2625,13 @@ input, select, textarea {
 			bottom: 0rem;
 			vertical-align: bottom;
 			padding: 0rem 2rem 0rem 2rem
+		}
+
+		.image.circle {
+			float: right;
+			margin: 2rem 2rem 2rem 2rem;
+			top: 0.75rem;
+			clip-path: circle(45% at 50% 50%);
 		}
 
 		.image.fit {
