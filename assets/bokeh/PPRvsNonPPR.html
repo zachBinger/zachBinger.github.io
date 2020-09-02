@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="884a51ae-4b07-4cd6-8e3e-4a7092386649" data-root-id="51265"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="52434">
+          {"53065c7d-9f8e-4aa9-a8b6-f7dd50475059":{"roots":{"references":[{"attributes":{"children":[{"id":"51169"},{"id":"51230"}]},"id":"51265","type":"Row"},{"attributes":{"axis":{"id":"51243"},"dimension":1,"ticker":null},"id":"51245","type":"Grid"},{"attributes":{},"id":"51208","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"52171"},"ticker":{"id":"51244"}},"id":"51243","type":"CategoricalAxis"},{"attributes":{"callback":null,"tooltips":[["Player","@Name"],["Non-PPR Pts","@NonPPR{0.0}"],["PPR Pts","@PPR{0.0}"],["Format Diff","@Diff"]]},"id":"51191","type":"HoverTool"},{"attributes":{},"id":"51174","type":"DataRange1d"},{"attributes":{},"id":"51192","type":"ResetTool"},{"attributes":{"ticks":[0,30,60,90,120,150]},"id":"51258","type":"FixedTicker"},{"attributes":{},"id":"52171","type":"CategoricalTickFormatter"},{"attributes":{},"id":"52173","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"7459"},"glyph":{"id":"51261"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"51262"},"selection_glyph":null,"view":{"id":"51264"}},"id":"51263","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Diff","transform":{"id":"51168"}},"height":{"value":0.6},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"Diff"},"y":{"field":"Name"}},"id":"51262","type":"HBar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"51251","type":"BoxAnnotation"},{"attributes":{},"id":"51176","type":"LinearScale"},{"attributes":{},"id":"7740","type":"UnionRenderers"},{"attributes":{},"id":"51178","type":"LinearScale"},{"attributes":{"source":{"id":"7459"}},"id":"51219","type":"CDSView"},{"attributes":{"fill_color":{"field":"Diff","transform":{"id":"51168"}},"height":{"value":0.6},"line_color":{"value":"#1f77b4"},"right":{"field":"Diff"},"y":{"field":"Name"}},"id":"51261","type":"HBar"},{"attributes":{},"id":"51246","type":"PanTool"},{"attributes":{"axis_label":"Player Rank","axis_label_text_font_size":"21pt","formatter":{"id":"51208"},"major_label_text_font_size":"18pt","ticker":{"id":"51181"}},"id":"51180","type":"LinearAxis"},{"attributes":{"overlay":{"id":"51193"}},"id":"51190","type":"BoxZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"green"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":15},"x":{"field":"rankNonPPR"},"y":{"field":"NonPPR"}},"id":"51217","type":"Circle"},{"attributes":{},"id":"51185","type":"BasicTicker"},{"attributes":{},"id":"51247","type":"WheelZoomTool"},{"attributes":{"data_source":{"id":"7459"},"glyph":{"id":"51216"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"51217"},"selection_glyph":null,"view":{"id":"51219"}},"id":"51218","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"51246"},{"id":"51247"},{"id":"51248"},{"id":"51249"},{"id":"51250"}]},"id":"51252","type":"Toolbar"},{"attributes":{},"id":"51181","type":"BasicTicker"},{"attributes":{"label":{"value":"Non-PPR"},"renderers":[{"id":"51218"}]},"id":"51228","type":"LegendItem"},{"attributes":{"overlay":{"id":"51251"}},"id":"51248","type":"BoxZoomTool"},{"attributes":{},"id":"7741","type":"Selection"},{"attributes":{"axis":{"id":"51180"},"ticker":null},"id":"51183","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["Player","@Name"],["Non-PPR Pts","@NonPPR{0.0}"],["PPR Pts","@PPR{0.0}"],["Format Diff","@Diff"]]},"id":"51249","type":"HoverTool"},{"attributes":{"axis":{"id":"51184"},"dimension":1,"ticker":null},"id":"51187","type":"Grid"},{"attributes":{},"id":"51235","type":"LinearScale"},{"attributes":{"axis_label":"Points","axis_label_text_font_size":"21pt","formatter":{"id":"51206"},"major_label_text_font_size":"18pt","ticker":{"id":"51185"}},"id":"51184","type":"LinearAxis"},{"attributes":{"text":""},"id":"52165","type":"Title"},{"attributes":{},"id":"51250","type":"ResetTool"},{"attributes":{"below":[{"id":"51180"}],"center":[{"id":"51183"},{"id":"51187"},{"id":"51213"}],"left":[{"id":"51184"}],"plot_height":800,"plot_width":800,"renderers":[{"id":"51203"},{"id":"51218"}],"title":{"id":"51170"},"toolbar":{"id":"51194"},"x_range":{"id":"51172"},"x_scale":{"id":"51176"},"y_range":{"id":"51174"},"y_scale":{"id":"51178"}},"id":"51169","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"PPR-NonPPR Pt Diff.","axis_label_text_font_size":"21pt","formatter":{"id":"52173"},"major_label_text_font_size":"18pt","ticker":{"id":"51258"}},"id":"51239","type":"LinearAxis"},{"attributes":{"source":{"id":"7459"}},"id":"51204","type":"CDSView"},{"attributes":{"data":{"Diff":{"__ndarray__":"AAAAAAAAXUAAAAAAAAAyQAAAAAAAgEhAAAAAAAAAS0D8/////39KQAAAAAAAAEJAAAAAAAAAV0AAAAAAAAA6QAAAAAAAgEJAAAAAAAAASkAAAAAAAAA/QAAAAAAAgEFA/v//////UkAAAAAAAAA0QAAAAAAAQFRAAAAAAAAASUAAAAAAAAAsQAAAAAAAAElAAAAAAACAQUAAAAAAAAAsQAAAAAAAADlAAAAAAACAUEAAAAAAAAAkQAAAAAAAAEVAAAAAAACATUAAAAAAAAAoQAAAAAAAAD9AAAAAAAAAMUABAAAAAABSQP7//////0BAAAAAAAAAPUAAAAAAAAA1QAAAAAAAAEFAAAAAAAAAPkAAAAAAAABGQAAAAAAAAEJAAgAAAACAQ0AAAAAAAAAkQAAAAAAAADBA/v////9/RUAAAAAAAAA8QAAAAAAAADNAAAAAAAAAQkAAAAAAAMBTQAAAAAAAACpAAAAAAAAAO0AAAAAAAAA4QA==","dtype":"float64","order":"little","shape":[47]},"Name":["Christian McCaffrey","Derrick Henry","Aaron Jones","Ezekiel Elliott","Dalvin Cook","Nick Chubb","Austin Ekeler","Mark Ingram","Chris Carson","Saquon Barkley","Todd Gurley","Joe Mixon","Leonard Fournette","Josh Jacobs","Alvin Kamara","Miles Sanders","Marlon Mack","Kenyan Drake","Phillip Lindsay","Raheem Mostert","David Montgomery","Le'Veon Bell","Carlos Hyde","Melvin Gordon","Devonta Freeman","Sony Michel","Ronald Jones","Adrian Peterson","James White","Latavius Murray","Devin Singletary","Tevin Coleman","James Conner","Damien Williams","Duke Johnson","David Johnson","Jamaal Williams","Jordan Howard","Peyton Barber","Royce Freeman","LeSean McCoy","Matt Breida","DeAndre Washington","Tarik Cohen","Frank Gore","Rex Burkhead","Boston Scott"],"Names":["Christian McCaffrey","Derrick Henry","Aaron Jones","Ezekiel Elliott","Dalvin Cook","Nick Chubb","Austin Ekeler","Mark Ingram","Chris Carson","Saquon Barkley","Todd Gurley","Joe Mixon","Leonard Fournette","Josh Jacobs","Alvin Kamara","Miles Sanders","Marlon Mack","Kenyan Drake","Phillip Lindsay","Raheem Mostert","David Montgomery","Le'Veon Bell","Carlos Hyde","Melvin Gordon","Devonta Freeman","Sony Michel","Ronald Jones","Adrian Peterson","James White","Latavius Murray","Devin Singletary","Tevin Coleman","James Conner","Damien Williams","Duke Johnson","David Johnson","Jamaal Williams","Jordan Howard","Peyton Barber","Royce Freeman","LeSean McCoy","Matt Breida","DeAndre Washington","Tarik Cohen","Frank Gore","Rex Burkhead","Boston Scott"],"NonPPR":{"__ndarray__":"MzMzMzMTdkCamZmZmalxQM3MzMzM3HBAMzMzMzNbcEDNzMzMzGxuQGZmZmZmJmxAAAAAAACga0AAAAAAABBrQDMzMzMzc2lAMzMzMzMDaEDNzMzMzMxnQM3MzMzMzGdAzczMzMwsZ0AzMzMzM7NlQAAAAAAAIGVAZmZmZmYWZUCamZmZmalkQGZmZmZmhmRAZmZmZmZWZEBmZmZmZmZjQM3MzMzMrGJAAAAAAACgYkBmZmZmZmZiQJqZmZmZGWJAMzMzMzPTYUAzMzMzM9NhQJqZmZmZaWFAAAAAAADAYEAzMzMzM7NfQM3MzMzMzF5AmpmZmZk5XkCamZmZmZlcQAAAAAAAYFxAZmZmZmZGXEAAAAAAAABcQAAAAAAA4FpAMzMzMzPTWkCamZmZmVlZQAAAAAAAIFlAzczMzMzMWEBmZmZmZqZXQDMzMzMzk1VAmpmZmZl5VUCamZmZmTlVQJqZmZmZeVRAZmZmZmYGU0CamZmZmblSQA==","dtype":"float64","order":"little","shape":[47]},"PPR":{"__ndarray__":"MzMzMzNTfUCamZmZmclyQM3MzMzM7HNAMzMzMzO7c0BmZmZmZoZyQDMzMzMzU3BAAAAAAACQc0AAAAAAAFBuQDMzMzMzE25AMzMzMzODbkDNzMzMzKxrQM3MzMzMLGxAZmZmZmZWcEAzMzMzMzNoQAAAAAAAQG9AZmZmZmZWa0CamZmZmWlmQGZmZmZmxmpAZmZmZma2aEBmZmZmZiZlQM3MzMzMzGVAAAAAAADgakBmZmZmZqZjQJqZmZmZWWdAMzMzMzMzaUAzMzMzM1NjQJqZmZmZSWVAAAAAAADgYkCamZmZmdloQGZmZmZmpmNAzczMzMy8YkDNzMzMzOxgQAAAAAAAcGJAMzMzMzPjYUAAAAAAAIBjQAAAAAAA8GFAmpmZmZlJYkCamZmZmdlbQAAAAAAAIF1AZmZmZmbGYUBmZmZmZqZeQDMzMzMzU1pAmpmZmZl5XkDNzMzMzHxkQJqZmZmZuVdAZmZmZmbGWUCamZmZmblYQA==","dtype":"float64","order":"little","shape":[47]},"index":["Christian McCaffrey","Derrick Henry","Aaron Jones","Ezekiel Elliott","Dalvin Cook","Nick Chubb","Austin Ekeler","Mark Ingram","Chris Carson","Saquon Barkley","Todd Gurley","Joe Mixon","Leonard Fournette","Josh Jacobs","Alvin Kamara","Miles Sanders","Marlon Mack","Kenyan Drake","Phillip Lindsay","Raheem Mostert","David Montgomery","Le'Veon Bell","Carlos Hyde","Melvin Gordon","Devonta Freeman","Sony Michel","Ronald Jones","Adrian Peterson","James White","Latavius Murray","Devin Singletary","Tevin Coleman","James Conner","Damien Williams","Duke Johnson","David Johnson","Jamaal Williams","Jordan Howard","Peyton Barber","Royce Freeman","LeSean McCoy","Matt Breida","DeAndre Washington","Tarik Cohen","Frank Gore","Rex Burkhead","Boston Scott"],"rankNonPPR":{"__ndarray__":"AAAAAAAA8D8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAUQAAAAAAAABhAAAAAAAAAHEAAAAAAAAAgQAAAAAAAACJAAAAAAAAAJEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAKkAAAAAAAAAsQAAAAAAAAC5AAAAAAAAAMEAAAAAAAAAxQAAAAAAAADJAAAAAAAAAM0AAAAAAAAA0QAAAAAAAADVAAAAAAAAANkAAAAAAAAA3QAAAAAAAADhAAAAAAAAAOUAAAAAAAAA6QAAAAAAAADtAAAAAAAAAPEAAAAAAAAA9QAAAAAAAAD5AAAAAAAAAP0AAAAAAAABAQAAAAAAAgEBAAAAAAAAAQUAAAAAAAIBBQAAAAAAAAEJAAAAAAACAQkAAAAAAAABDQAAAAAAAgENAAAAAAAAAREAAAAAAAIBEQAAAAAAAgEVAAAAAAAAARkAAAAAAAIBGQAAAAAAAAEdAAAAAAAAASEAAAAAAAIBIQA==","dtype":"float64","order":"little","shape":[47]},"rankPPR":{"__ndarray__":"AAAAAAAA8D8AAAAAAAAUQAAAAAAAAABAAAAAAAAACEAAAAAAAAAYQAAAAAAAACBAAAAAAAAAEEAAAAAAAAAmQAAAAAAAAChAAAAAAAAAJEAAAAAAAAAsQAAAAAAAACpAAAAAAAAAHEAAAAAAAAA1QAAAAAAAACJAAAAAAAAALkAAAAAAAAA3QAAAAAAAADFAAAAAAAAANEAAAAAAAAA6QAAAAAAAADhAAAAAAAAAMEAAAAAAAAA8QAAAAAAAADZAAAAAAAAAMkAAAAAAAAA/QAAAAAAAADlAAAAAAAAAQEAAAAAAAAAzQAAAAAAAAD1AAAAAAACAQEAAAAAAAIBDQAAAAAAAAEFAAAAAAACAQkAAAAAAAAA+QAAAAAAAAEJAAAAAAACAQUAAAAAAAIBFQAAAAAAAAEVAAAAAAAAAQ0AAAAAAAABEQAAAAAAAAEdAAAAAAACAREAAAAAAAAA7QAAAAAAAAElAAAAAAACAR0AAAAAAAIBIQA==","dtype":"float64","order":"little","shape":[47]}},"selected":{"id":"7741"},"selection_policy":{"id":"7740"}},"id":"7459","type":"ColumnDataSource"},{"attributes":{"source":{"id":"7459"}},"id":"51264","type":"CDSView"},{"attributes":{"high":116.0,"low":1,"palette":["#5e4fa2","#3288bd","#66c2a5","#abdda4","#e6f598","#ffffbf","#fee08b","#fdae61","#f46d43","#d53e4f","#9e0142"]},"id":"51168","type":"LinearColorMapper"},{"attributes":{"end":150},"id":"51231","type":"Range1d"},{"attributes":{},"id":"51206","type":"BasicTickFormatter"},{"attributes":{"factors":["Carlos Hyde","Jordan Howard","Sony Michel","Frank Gore","Marlon Mack","Raheem Mostert","Peyton Barber","Adrian Peterson","Derrick Henry","Matt Breida","Josh Jacobs","Tevin Coleman","Boston Scott","David Montgomery","Mark Ingram","Rex Burkhead","LeSean McCoy","Devin Singletary","Damien Williams","Ronald Jones","Todd Gurley","Latavius Murray","James Conner","Phillip Lindsay","Joe Mixon","David Johnson","Nick Chubb","DeAndre Washington","Chris Carson","Jamaal Williams","Melvin Gordon","Royce Freeman","Duke Johnson","Aaron Jones","Kenyan Drake","Miles Sanders","Saquon Barkley","Dalvin Cook","Ezekiel Elliott","Devonta Freeman","Le'Veon Bell","James White","Leonard Fournette","Tarik Cohen","Alvin Kamara","Austin Ekeler","Christian McCaffrey"]},"id":"51233","type":"FactorRange"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"51193","type":"BoxAnnotation"},{"attributes":{},"id":"51244","type":"CategoricalTicker"},{"attributes":{"data_source":{"id":"7459"},"glyph":{"id":"51201"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"51202"},"selection_glyph":null,"view":{"id":"51204"}},"id":"51203","type":"GlyphRenderer"},{"attributes":{"label":{"value":"PPR"},"renderers":[{"id":"51203"}]},"id":"51214","type":"LegendItem"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"51188"},{"id":"51189"},{"id":"51190"},{"id":"51191"},{"id":"51192"}]},"id":"51194","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"blue"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":15},"x":{"field":"rankPPR"},"y":{"field":"PPR"}},"id":"51201","type":"Circle"},{"attributes":{"below":[{"id":"51239"}],"center":[{"id":"51242"},{"id":"51245"}],"left":[{"id":"51243"}],"plot_height":800,"plot_width":400,"renderers":[{"id":"51263"}],"title":{"id":"52165"},"toolbar":{"id":"51252"},"x_range":{"id":"51231"},"x_scale":{"id":"51235"},"y_range":{"id":"51233"},"y_scale":{"id":"51237"}},"id":"51230","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"51188","type":"PanTool"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"green"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":15},"x":{"field":"rankNonPPR"},"y":{"field":"NonPPR"}},"id":"51216","type":"Circle"},{"attributes":{},"id":"51172","type":"DataRange1d"},{"attributes":{},"id":"51237","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"blue"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":15},"x":{"field":"rankPPR"},"y":{"field":"PPR"}},"id":"51202","type":"Circle"},{"attributes":{"click_policy":"hide","items":[{"id":"51214"},{"id":"51228"}]},"id":"51213","type":"Legend"},{"attributes":{},"id":"51189","type":"WheelZoomTool"},{"attributes":{"axis":{"id":"51239"},"ticker":null},"id":"51242","type":"Grid"},{"attributes":{"text":"PPR vs Non-PPR"},"id":"51170","type":"Title"}],"root_ids":["51265"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('52434').textContent;
+                  var render_items = [{"docid":"53065c7d-9f8e-4aa9-a8b6-f7dd50475059","root_ids":["51265"],"roots":{"51265":"884a51ae-4b07-4cd6-8e3e-4a7092386649"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
