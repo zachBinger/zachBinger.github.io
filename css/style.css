@@ -416,7 +416,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
-    background: #f2f3f7;
+    background: #03315c;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -613,16 +613,31 @@ body.offcanvas {
   background: #2c98f0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
+  -ms-border-radius: 10%;
   border-radius: 50%;
   text-align: center;
-  -moz-box-shadow: 0 0 0 5px #f2f3f7;
-  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
-  box-shadow: 0 0 0 5px #f2f3f7;
-  line-height: 40px;
+  -moz-box-shadow: 0 0 0 1px #f2f3f7;
+  -webkit-box-shadow: 0 0 0 1px #f2f3f7;
+  box-shadow: 0 0 0 1px #f2f3f7;
+  line-height: 10px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    border-radius: 10%;
+    text-align: left;
+    -moz-box-shadow: 0 0 0 1px #f2f3f7;
+    -webkit-box-shadow: 0 0 0 1px #f2f3f7;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    line-height: 40px;
+    float: right; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
     background: #ec5453; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
@@ -635,7 +650,7 @@ body.offcanvas {
     background: #fff;
     width: 20px;
     height: 20px;
-    margin-left: 10px; }
+    margin-left: 30px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
