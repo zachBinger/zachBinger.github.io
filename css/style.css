@@ -77,6 +77,32 @@ img.center {
   width: 60%;
 }
 
+img.centerFull {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  width: 90%;
+}
+
+img.leftTab {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+img.rightTab {
+  display: block;
+  float: right;
+  width: 50%;
+}
+
+div .main {
+  margin-left: "10px";
+  margin-right: "10px";
+}
+
 ::-webkit-selection {
   color: #fff;
   background: #2c98f0; }
@@ -1522,3 +1548,9 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  .div-1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
