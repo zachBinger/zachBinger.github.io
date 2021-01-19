@@ -107,7 +107,7 @@ svg.rightAlign {
 
 div .main {
   margin-left: "10px";
-  margin-right: "10px";
+  margin-right: "0px";
 }
 
 ::-webkit-selection {
@@ -129,8 +129,10 @@ div .main {
 
 #colorlib-aside {
   padding-top: 1em;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
+  padding-right: 0px;
   float: left;
+  display: inline-table;
   width: 300px;
   position: fixed;
   overflow: scroll;
@@ -846,6 +848,7 @@ body.offcanvas {
 .progress-wrap {
   display: inline-block;
   text-align: center;
+  vertical-align: bottom;
   /* position: relative; */
   width: 100%;
   font-size: 16px;
@@ -855,8 +858,11 @@ body.offcanvas {
 .progress-wrap h3 {
   display: inline-block;
   text-align: center;
-  font-size: 16px;
+  vertical-align: bottom;
   font-family: "Quicksand", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
   padding-left: auto;
   padding-right: auto;
   margin-left: auto;
